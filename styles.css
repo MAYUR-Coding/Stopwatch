@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.controls button#startStop {
+    background-color: green;
+    color: white;
+}
+
+.controls button#stop {
+    background-color: red;
+    color: white;
+}
